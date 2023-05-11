@@ -1,0 +1,360 @@
+html{
+  font-size: 14px;
+}
+
+body{
+  background-color:#F8F9FD;
+  margin:0;
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  html {
+    font-size: 28px;
+  }
+}
+
+
+
+
+
+/* bar */
+
+.bar {
+  display: flex; 
+  background-color:#F8F9FD;
+  height:auto;
+}
+
+
+.bar > div {
+  flex-basis: 25%; /* 子元素占据容器的 1/4 宽度 */
+  margin-top:2%;
+  margin-bottom:2%;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+
+.bar p{
+  margin:0;
+  margin-top:5%;
+  font-family: Arial;
+  font-size: 1rem;
+}
+
+
+.bar_icon1{
+  background-image: linear-gradient(180deg, #7ea0d6 0%, #afd9ec 100%);
+}
+.bar_icon2{
+  background-image: linear-gradient(180deg, #efc94d 0%, #fda085 100%);
+}
+
+.bar_icon3{
+  background-image: linear-gradient(180deg, #68e094 0%, #8fd3f4 100%);
+
+}
+.bar_icon4{
+  background-image: linear-gradient(180deg, #a1c4fd 0%, #c2e9fb 100%);
+
+}
+
+.icon{
+  width:70%;
+  height:auto;
+  padding: 15%;
+}
+
+
+/* middle container */
+
+
+.middle-container {
+  background-color:#654E92;
+  width:100%;
+  height:auto;
+  padding-bottom: 15%;
+  margin-bottom: 20%;
+  position:relative;
+
+}
+
+.middle-container > div:first-child{
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  padding-top:5%;
+  padding-bottom:2%
+}
+
+.photo-container{
+  flex-basis: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo{
+  border-radius:50%;
+  width:50%;
+ }
+
+ .welcome{
+  color:white;
+  flex-basis: 75%;
+}
+
+.long-img{
+  position:absolute;
+  margin-left: 8%;
+  margin-right: 8%;
+  width:84%;
+  height:auto;
+}
+
+
+.iconbox{
+  width:3rem;
+  height:3rem;
+  border-radius:50%;
+}
+
+ 
+
+/* transportation */
+
+
+.transportation{
+  height:auto;
+  background:#a698c6;
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius:12px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.transportation-content{
+  height:auto;
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius:12px;
+  background:#FFFFFF;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-self: center;
+}
+
+.content {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  width: 100%;
+  height:auto;
+  margin-top: 5%;
+  border-radius:12px;
+}
+
+.content > div{
+  flex-basis: 25%; 
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:0;
+
+}
+
+.trans_icon{
+  background-color: #654E92;
+  width:3rem;
+  height:3rem;
+  border-radius:50%;
+  margin-bottom:10px;
+}
+
+.trans_icon > img{
+  width:70%;
+  height:auto;
+  padding: 15%;
+
+}
+
+.content > div p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  margin:0;
+}
+
+
+.button-collapse{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border: white;
+}
+
+.button-collapse p{
+  font-family:sans-serif;
+  font-size:1rem;
+  font-weight:500;
+  display: inline-block;
+}
+
+.arrow {
+  border-left: 0.5rem solid transparent;
+  border-right: 0.5rem solid transparent;
+  border-bottom: 0.5rem solid #000;
+  margin-left: 5px;
+  display: inline-block;
+}
+
+
+/* pay */
+
+.payment{
+  margin-top:5%;
+  width: 96%; /* 宽度占据父元素的宽度 */
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFFFFF;
+  border-radius:12px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.payment > div{
+  display:flex;
+  text-align: center;
+  align-items: center;
+}
+
+
+.payment > div:first-child{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size:1.2rem;
+  font-weight:500;
+  margin-left:1rem;
+  justify-content: center;
+}
+
+
+.payment > div:first-child span{
+  font-size:1.2rem;
+  font-weight:500;
+  margin-left:1rem;
+}
+
+
+
+.pay{
+  width:94%;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+
+.pay > div {
+  flex-basis: 33%; 
+}
+
+
+.money{
+  width: 94%; 
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:5%;
+  margin-bottom: 3%;
+  justify-content: center;
+}
+
+.money div {
+  flex-basis: 25%; 
+  display: flex;
+  flex-direction: column;
+}
+
+.money img{
+  width:40%;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.money p{
+  margin:0;
+  font-size:1rem;
+  font-family:sans-serif;
+  font-weight:500;
+}
+
+
+hr{
+  margin-top: 0%;
+  width: 80%;
+  height:2px;
+  background-color:#F0F0F0;
+  border:none
+}
+
+
+
+/*  pay button */
+
+.buttons{
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+}
+
+.buttons button{
+  display: flex;
+  background-color: white;
+  border: 2px solid #F0F0F0;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding:1%;
+  margin-right:5%; 
+}
+
+.buttons img{
+  width:15%;
+  height:auto;
+  padding-right:0.3rem;
+}
+
+
+
+
